@@ -4,6 +4,29 @@
    flex-direction: column; /*alinhamento dos elementos em coluna*/
    margin-bottom: 5rem;/*espaçamento da margem inferior em baixo das receitas*/
 
-   margin-right: 5rem ;/*espaçamento da margem a direita*/
-   width: calc(25% - 5rem); /*tamanho horizontal ocupado por uma tag e desconsidera o espaçamento à dierita*/
+   
+}
+
+@media screen and (min-width: 0){
+   .receita {
+      margin-right: 1rem;
+      width: 100%;
+
+   }
+}
+
+@media screen and (min-width: 768px){
+   .receita {
+      margin-right: 2.5rem;
+      width: calc(33.33% - 2.5rem)
+
+   }
+}
+
+@media screen and (min-width: 992px)  {
+   .receita {
+      margin-right: 5rem ;/*espaçamento da margem a direita*/
+   width: calc(25% - 5rem); /*tamanho horizontal ocupado por uma tag e desconsidera o espaçamento à direita*/
+
+   }
 }

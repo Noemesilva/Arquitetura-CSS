@@ -1,0 +1,23 @@
+.pessoas {
+    display: flex;
+    justify-content: space-around; /*espaço entre todas as caixas*/
+    padding-top: 3rem; /*espaçamento no topo*/
+    
+}
+
+@media screen and (min-width: 0){
+    .pessoas {
+        flex-direction: column;/*Alinhado em coluna um em baixo do outro*/
+
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pessoas {
+        flex-direction: row;/*volta o elemento um do lado do outro*/
+
+    }
+}
+
+
+ 

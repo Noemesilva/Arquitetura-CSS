@@ -1,0 +1,7 @@
+.rodape {
+   background: #bfbfbf; 
+   color: #fdfdfd;
+   text-align: right; /*texto alinhado a direita*/
+   padding: 1.5625rem 5rem;/*espacamento interno em cima e em baixo 1.5625, e direita e esquerda 5rem*/
+   text-transform: lowercase;
+}
