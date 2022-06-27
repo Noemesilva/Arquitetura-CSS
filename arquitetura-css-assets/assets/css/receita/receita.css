@@ -1,0 +1,9 @@
+.receita {
+   background: #fdfdfd;
+   display: flex;
+   flex-direction: column; /*alinhamento dos elementos em coluna*/
+   margin-bottom: 5rem;/*espaçamento da margem inferior em baixo das receitas*/
+
+   margin-right: 5rem ;/*espaçamento da margem a direita*/
+   width: calc(25% - 5rem); /*tamanho horizontal ocupado por uma tag e desconsidera o espaçamento à dierita*/
+}
